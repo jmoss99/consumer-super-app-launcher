@@ -629,15 +629,17 @@ export default function ChallengesScreen({ onBack }) {
                 </div>
               )}
 
-              {/* Action Button */}
-              <button 
-                onClick={() => currentCompetition.hole && handlePlayChallenge(currentCompetition)}
-                className="bg-[#cd1b32] content-stretch flex gap-[16px] h-[56px] items-center justify-center px-[48px] py-[16px] relative rounded-[8px] shrink-0 cursor-pointer hover:bg-[#b0172a] transition-colors w-full"
-              >
-                <span className="font-['Barlow:SemiBold',sans-serif] text-[18px] text-center text-white tracking-[1.26px] uppercase">
-                  {currentCompetition.hole ? 'Play!' : currentCompetition.isPersonalBest ? 'Start Challenge' : 'Join Competition'}
-                </span>
-              </button>
+              {/* Action Button - Hide button for all completed challenges */}
+              {currentCompetition.completed !== true && (
+                <button 
+                  onClick={() => currentCompetition.hole && handlePlayChallenge(currentCompetition)}
+                  className="bg-[#cd1b32] content-stretch flex gap-[16px] h-[56px] items-center justify-center px-[48px] py-[16px] relative rounded-[8px] shrink-0 cursor-pointer hover:bg-[#b0172a] transition-colors w-full"
+                >
+                  <span className="font-['Barlow:SemiBold',sans-serif] text-[18px] text-center text-white tracking-[1.26px] uppercase">
+                    {currentCompetition.hole ? 'Play!' : currentCompetition.isPersonalBest ? 'Start Challenge' : 'Join Competition'}
+                  </span>
+                </button>
+              )}
             </div>
           </div>
         </div>
