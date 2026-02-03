@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Note: Acumin Pro ExtraCondensed is a premium font that may need to be purchased or loaded separately */
+/* For now, using a similar condensed font as fallback */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Font family utilities for Acumin Pro ExtraCondensed */
+.font-\\[\\'Acumin_Pro_ExtraCondensed\\:Bold_Italic\\'\\,sans-serif\\] {
+  font-family: 'Arial Narrow', 'Arial', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
