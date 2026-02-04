@@ -39,10 +39,10 @@ function CardImages({ className, hover = false, title = false, type = "Target Ra
               <div className="content-stretch flex flex-[1_0_0] flex-col items-center justify-end min-h-px min-w-px relative w-full" 
                    data-name="Content" 
                    data-node-id="I13343:331327;13234:130661">
-                <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-between min-h-px min-w-px overflow-clip relative rounded-bl-[8px] rounded-br-[8px] w-full" 
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-center justify-end min-h-px min-w-px overflow-clip relative rounded-bl-[8px] rounded-br-[8px] w-full" 
                      data-name="Container" 
                      data-node-id="I13343:331327;13234:130662">
-                  <div className="content-stretch flex flex-col gap-[16px] items-center justify-center px-[16px] py-[32px] relative shrink-0 w-full" 
+                  <div className="content-stretch flex flex-col items-center justify-end px-[16px] pb-[24px] relative shrink-0 w-full" 
                        data-name="Content&Buttons" 
                        data-node-id="I13343:331327;13234:130666">
                     <div className="content-stretch flex flex-col gap-[4px] items-center justify-center relative shrink-0 w-full" 
@@ -51,7 +51,7 @@ function CardImages({ className, hover = false, title = false, type = "Target Ra
                       <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" 
                            data-name="Title" 
                            data-node-id="I13343:331327;13234:130668">
-                        <div className="flex flex-[1_0_0] flex-col font-['Acumin_Pro_ExtraCondensed:Bold_Italic',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative text-[40px] text-center text-white uppercase" 
+                        <div className="flex flex-[1_0_0] flex-col font-['Acumin_Pro_ExtraCondensed:Bold_Italic',sans-serif] justify-center leading-[0] min-h-px min-w-px relative text-[40px] text-center text-white uppercase" 
                              data-node-id="I13343:331327;13234:130669">
                           <p className="leading-[0.9] whitespace-pre-wrap">{getTitle()}</p>
                         </div>
@@ -82,7 +82,7 @@ function CardImages({ className, hover = false, title = false, type = "Target Ra
                       <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" 
                            data-name="Title" 
                            data-node-id="I13343:346092;13234:130684">
-                        <div className="flex flex-[1_0_0] flex-col font-['Acumin_Pro_ExtraCondensed:Bold_Italic',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative text-[48px] text-center text-white uppercase" 
+                        <div className="flex flex-[1_0_0] flex-col font-['Acumin_Pro_ExtraCondensed:Bold_Italic',sans-serif] justify-center leading-[0] min-h-px min-w-px relative text-[48px] text-center text-white uppercase" 
                              data-node-id="I13343:346092;13234:130685">
                           <p className="leading-[0.9] whitespace-pre-wrap">{getTitle()}</p>
                         </div>
