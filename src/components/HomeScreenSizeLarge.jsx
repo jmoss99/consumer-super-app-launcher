@@ -65,9 +65,7 @@ export default function HomeScreenSizeLarge({ onNavigateToChallenges }) {
                           type="Challenges" 
                           title />
             </div>
-            <ConsumerCards className="content-stretch flex gap-[10px] h-[460px] items-center relative shrink-0 w-[360px]" 
-                           hover 
-                           type="Performance" />
+            <ConsumerCards type="Performance" />
           </div>
         </div>
         <div className="content-stretch flex isolate items-center justify-between pl-[32px] relative shrink-0 w-full" 
